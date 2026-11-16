@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="A playful, paper-inspired portfolio template for a curious designer or creative developer." />
+    <meta name="theme-color" content="#f5f3ec" />
+    <title>Your Name — Designer &amp; Creative</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=DM+Sans:wght@400;500;600;700&family=Kalam:wght@400;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="main.js" defer></script>
+  </head>
+  <body>
+    <main class="paper">
+      <header class="topbar">
+        <a class="brand-mark" href="#home" aria-label="Your Name, home">✳</a>
+        <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="primary-nav">
+          <span class="sr-only">Toggle navigation</span><span></span><span></span>
+        </button>
+        <nav class="navigation" id="primary-nav" aria-label="Main navigation">
+          <a class="nav-link active" href="#home">✦ <span>Home</span></a>
+          <a class="nav-link" href="#about">♟ <span>About</span></a>
+          <a class="nav-link" href="#work">▦ <span>Case studies</span></a>
+          <a class="nav-link" href="#playground">✿ <span>Playground</span></a>
+        </nav>
+        <div class="topbar-right">
+          <div class="social-links" aria-label="Social links">
+            <a href="https://www.linkedin.com/" aria-label="LinkedIn">in</a>
+            <a href="https://www.instagram.com/" aria-label="Instagram">◎</a>
+            <a href="https://www.are.na/" aria-label="Are.na">◉</a>
+          </div>
+          <a class="contact-link" href="mailto:hello@example.com">♥ <span>Say hello</span></a>
+        </div>
+      </header>
+
+      <section class="hero ruled" id="home" aria-labelledby="hero-title">
+        <div class="hero-kicker">
+          <span class="sticker sticker-mint">Made with curiosity</span>
+          <span class="hand-note">my name is</span>
+          <span class="sticker sticker-yellow">Open to good things</span>
+        </div>
+        <h1 class="nameplate" id="hero-title">YOUR NAME</h1>
+        <div class="hero-meta">
+          <span class="sticker sticker-yellow role-sticker">Designer &amp; maker</span>
+          <span class="availability"><i></i> OPEN TO NEW WORK AND GOOD PROBLEMS</span>
+          <span class="sticker sticker-mint location-sticker">Somewhere, Earth</span>
+        </div>
+        <div class="hero-intro">
+          <img class="orbit-photo orbit-photo-left" src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&amp;fit=crop&amp;w=140&amp;q=80" alt="" />
+          <p>I make thoughtful digital things<br />that make life feel a little easier.<span class="flower">✿</span></p>
+          <img class="orbit-photo orbit-photo-right" src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&amp;fit=crop&amp;w=140&amp;q=80" alt="" />
+        </div>
+        <a class="button button-dark" href="mailto:hello@example.com"><span>✦</span> Let’s talk</a>
+        <a class="scroll-cue" href="#about">A LITTLE ABOUT ME <span>↓</span></a>
+      </section>
+
+      <section class="about ruled" id="about" aria-labelledby="about-title">
+        <p class="section-label">A note from me</p>
+        <h2 class="outlined-title" id="about-title">A little about me</h2>
+        <div class="about-layout">
+          <figure class="photo-frame portrait-frame">
+            <img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&amp;fit=crop&amp;w=540&amp;q=85" alt="Portrait placeholder — replace with your own photo" loading="lazy" />
+            <figcaption>probably looking for coffee</figcaption>
+          </figure>
+          <div class="about-copy">
+            <p class="handwritten">Hey, I’m Your Name! I’m a designer who loves turning the complicated stuff into something clear, useful, and just a little bit delightful.</p>
+            <p class="handwritten handwritten-small">I care about the tiny details, the odd edge cases, and making work that feels good to use. When I’m not moving pixels, I’m collecting ideas and making a very long playlist. <span class="sparkle">✦</span></p>
+            <div class="skill-list" aria-label="Skills">
+              <span class="skill skill-yellow">Product thinking</span>
+              <span class="skill skill-green">Prototyping</span>
+              <span class="skill skill-pink">User research</span>
+              <span class="skill skill-blue">Visual design</span>
+              <span class="skill skill-green">Good questions</span>
+              <span class="skill skill-pink">Design systems</span>
+            </div>
+          </div>
+          <figure class="photo-frame snapshot-frame">
+            <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&amp;fit=crop&amp;w=480&amp;q=85" alt="A workspace and laptop" loading="lazy" />
+            <figcaption>little things in progress</figcaption>
+          </figure>
+        </div>
+      </section>
+
+      <section class="work-section" id="work" aria-labelledby="work-title">
+        <div class="work-heading">
+          <div><p class="section-label">Selected work, 2024—26</p><h2 id="work-title">Things I’ve made<span>.</span></h2></div>
+          <p class="work-caption">A few good problems, and what I did with them <span>↘</span></p>
+        </div>
+        <div class="project-list" id="project-list" aria-live="polite"></div>
+      </section>
+
+      <section class="playground ruled" id="playground" aria-labelledby="playground-title">
+        <p class="section-label">The side quests</p>
+        <h2 id="playground-title">A little room to play<span> ✳</span></h2>
+        <p>Experiments, small ideas, and things made just because. More coming soon.</p>
+        <a href="mailto:hello@example.com" class="text-link">Have something fun in mind? <span>Let’s make it ↗</span></a>
+      </section>
+
+      <footer class="footer">
+        <a class="footer-star" href="#home">✳</a>
+        <p>Made with care, by <span>Your Name</span></p>
+        <a href="mailto:hello@example.com">Say hello ↗</a>
+        <span class="copyright">© <span id="current-year"></span></span>
+      </footer>
+    </main>
+  </body>
+</html>
